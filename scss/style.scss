@@ -74,7 +74,12 @@ a {
 		margin-bottom: 0;
 	}
 }
-
+.connect-btn {
+	padding-top: 45px !important;
+	// &.scrolled {
+	// 	padding-top: 10px !important;
+	// }
+}
 .probootstrap-navbar {
 	border: none;
 	box-shadow: none;
@@ -424,7 +429,7 @@ a {
 		background: $brand-white;
 		box-shadow: 0px 1px 3px 0px rgba(0,0,0,.09);
 		.parent-nav-link-padding {
-			padding-top: 20px;
+			padding-top: 20px !important;
 			padding-bottom: 20px;
 
 		}
